@@ -8,7 +8,7 @@ set -e
 npm run build
 
 # navigate into the build output directory
-cd build
+cd dist
 
 # if you are deploying to a custom domain
 echo "$REPO_NAME.sdavis.online" > CNAME

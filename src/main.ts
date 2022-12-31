@@ -200,7 +200,7 @@ function scaleVertexSets(
   scale: number
 ) {
   return vertexSets.map((vertices) =>
-    Matter.Vertices.scale(vertices, scale, scale)
+    Matter.Vertices.scale(vertices, scale, scale, { x: 0, y: 0 })
   );
 }
 
